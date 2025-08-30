@@ -2,6 +2,7 @@ import { home_page_content } from "./pages/home_page.js";
 import { about_page_content } from "./pages/about_page.js";
 import { menu_page_content } from "./pages/menu_page.js";
 import { hours_page_content } from "./pages/hours_page.js";
+import { contact_page_content } from "./pages/contact_page.js";
 
 const home_button = document.getElementById("home-button");
 const about_button = document.getElementById("about-button");
@@ -31,4 +32,9 @@ menu_button.addEventListener("click", () => {
 hours_button.addEventListener("click", () => {
     container.innerHTML = "";
     container.appendChild(hours_page_content);
+});
+
+contact_button.addEventListener("click", () => {
+    container.innerHTML = "";
+    container.appendChild(contact_page_content);
 });
