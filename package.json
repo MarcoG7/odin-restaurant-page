@@ -4,7 +4,8 @@
     "description": "The Odin Project's Webpack project",
     "main": "index.js",
     "scripts": {
-        "build": "webpack"
+        "build": "webpack",
+        "dev": "webpack serve"
     },
     "repository": {
         "type": "git",
@@ -13,7 +14,6 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "type": "commonjs",
     "bugs": {
         "url": "https://github.com/MarcoG7/odin-restaurant-page/issues"
     },
