@@ -1,6 +1,7 @@
 import { home_page_content } from "./pages/home_page.js";
 import { about_page_content } from "./pages/about_page.js";
 import { menu_page_content } from "./pages/menu_page.js";
+import { hours_page_content } from "./pages/hours_page.js";
 
 const home_button = document.getElementById("home-button");
 const about_button = document.getElementById("about-button");
@@ -16,11 +17,18 @@ home_button.addEventListener("click", () => {
     container.innerHTML = "";
     container.appendChild(home_page_content);
 });
+
 about_button.addEventListener("click", () => {
     container.innerHTML = "";
     container.appendChild(about_page_content);
 });
+
 menu_button.addEventListener("click", () => {
     container.innerHTML = "";
     container.appendChild(menu_page_content);
+});
+
+hours_button.addEventListener("click", () => {
+    container.innerHTML = "";
+    container.appendChild(hours_page_content);
 });
