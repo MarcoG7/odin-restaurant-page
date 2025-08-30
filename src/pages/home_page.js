@@ -2,10 +2,6 @@ export { home_page_content };
 
 const home_page_content = document.createElement("div");
 
-const restaurant_name = document.createElement("h1");
-restaurant_name.textContent = "Ember & Ash";
-restaurant_name.classList.add("retaurant-name");
-
 const restaurant_tagline = document.createElement("h3");
 restaurant_tagline.textContent = "Wood-Fired Flavors, Modern Comfort";
 restaurant_tagline.classList.add("restaurant-tagline");
@@ -34,7 +30,6 @@ rsvp_button.classList.add("cta-button");
 cta_form.appendChild(view_menu_button);
 cta_form.appendChild(rsvp_button);
 
-home_page_content.appendChild(restaurant_name);
 home_page_content.appendChild(restaurant_tagline);
 home_page_content.appendChild(restaurant_description);
 home_page_content.appendChild(restaurant_slogan);
