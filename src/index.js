@@ -1,2 +1,5 @@
+import { home_page_content } from "./home_page.js";
 
-console.log("Hello everyone, welcome to the restaurant page");
+const container = document.getElementById("container");
+
+container.appendChild(home_page_content);
