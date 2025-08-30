@@ -4,6 +4,9 @@ import { menu_page_content } from "./pages/menu_page.js";
 import { hours_page_content } from "./pages/hours_page.js";
 import { contact_page_content } from "./pages/contact_page.js";
 
+import "./styles/header.css";
+import "./styles/body.css";
+
 const home_button = document.getElementById("home-button");
 const about_button = document.getElementById("about-button");
 const menu_button = document.getElementById("menu-button");
