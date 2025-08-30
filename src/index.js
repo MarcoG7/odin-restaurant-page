@@ -3,6 +3,9 @@ import { about_page_content } from "./pages/about_page.js";
 
 const home_button = document.getElementById("home-button");
 const about_button = document.getElementById("about-button");
+const menu_button = document.getElementById("menu-button");
+const hours_button = document.getElementById("hours-button");
+const contact_button = document.getElementById("contact-button");
 
 const container = document.getElementById("container");
 
