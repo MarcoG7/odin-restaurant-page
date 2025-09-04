@@ -42,6 +42,7 @@ function categoryItem(item_name, price) {
 }
 
 const menu_page_content = document.createElement("div");
+menu_page_content.classList.add("menu-page-content");
 
 const restaurant_tagline = document.createElement("h3");
 restaurant_tagline.textContent = "Wood-Fired Flavors, Modern Comfort";

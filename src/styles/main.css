@@ -18,3 +18,24 @@ body {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.home-page-content,
+.about-page-content,
+.contact-page-content,
+.menu-page-content,
+.hours-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+
+    color: var(--body-text-color);
+}
+
+.restaurant-tagline {
+    font-style: italic;
+    font-size: var(--tagline-text-size);
+    font-weight: normal;
+    letter-spacing: 1px;
+}

@@ -1,20 +1,3 @@
-.home-page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    height: 100vh;
-
-    color: var(--body-text-color);
-}
-
-.restaurant-tagline {
-    font-style: italic;
-    font-size: var(--tagline-text-size);
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
 .restaurant-description {
     text-align: center;
     font-size: var(--p-text-size);

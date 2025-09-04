@@ -1,6 +1,7 @@
 export { hours_page_content };
 
 const hours_page_content = document.createElement("div");
+hours_page_content.classList.add("hours-page-content");
 
 const restaurant_tagline = document.createElement("h3");
 restaurant_tagline.textContent = "Wood-Fired Flavors, Modern Comfort";
