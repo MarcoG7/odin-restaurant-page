@@ -1,0 +1,15 @@
+.about-description {
+    margin: 0 200px;
+    margin-bottom: 40px;
+
+    text-align: center;
+    font-size: var(--p-text-size);
+}
+
+.about-words {
+    text-align: center;
+
+    font-size: calc(var(--tagline-text-size) - 15px);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
