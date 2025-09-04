@@ -4,7 +4,7 @@ import { menu_page_content } from "./pages/menu_page.js";
 import { hours_page_content } from "./pages/hours_page.js";
 import { contact_page_content } from "./pages/contact_page.js";
 
-import "./styles/body.css";
+import "./styles/main.css";
 import "./styles/header.css";
 import "./styles/home_page.css";
 
