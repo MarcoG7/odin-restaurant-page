@@ -1,6 +1,7 @@
 export { home_page_content };
 
 const home_page_content = document.createElement("div");
+home_page_content.classList.add("home-page-content");
 
 const restaurant_tagline = document.createElement("h3");
 restaurant_tagline.textContent = "Wood-Fired Flavors, Modern Comfort";
