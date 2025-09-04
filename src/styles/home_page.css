@@ -1,0 +1,58 @@
+.home-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+
+    color: var(--body-text-color);
+}
+
+.restaurant-tagline {
+    font-style: italic;
+    font-size: var(--tagline-text-size);
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.restaurant-description {
+    text-align: center;
+    font-size: var(--p-text-size);
+    font-weight: bold;
+
+    line-height: 30px;
+
+    padding: 0 25%;
+}
+
+.restaurant-slogan {
+    font-weight: normal;
+    font-size: var(--p-text-size);
+    letter-spacing: 0.75px;
+}
+
+.cta-form {
+    width: 50%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.cta-button {
+    width: clamp(100px, 30%, 150px);
+    height: 40px;
+
+    cursor: pointer;
+
+    background-color: #A94442;
+    border: 2px solid #CFA45C;
+    border-radius: 16px;
+
+    color: white;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    color: black;
+    background-color: darksalmon;
+}

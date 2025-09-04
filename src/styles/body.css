@@ -1,6 +1,20 @@
+:root {
+    --p-text-size: 1.65rem;
+    --tagline-text-size: 3rem;
+
+    --header-background-color: #2b2b2b;
+    --header-text-color: #f9f5ef;
+    --header-heading-font-size: 2rem;
+    --header-nav-font-size: 1.25rem;
+
+    --body-text-color: #4e4e4e;
+}
+
 body {
     padding: 0;
     margin: 0;
+
+    background-color: #F9F5EF;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

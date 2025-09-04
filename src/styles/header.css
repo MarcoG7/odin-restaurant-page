@@ -1,9 +1,10 @@
 header {
-    padding: 15px;
-    background-color: rgb(229, 226, 223);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: var(--header-background-color);
 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
+    border-radius: 0 0 3px 3px;
     
     display: flex;
     justify-content: space-between;
@@ -14,7 +15,8 @@ header h1 {
     padding: 0;
     margin: 0;
 
-    font-size: 24px;
+    font-size: var(--header-heading-font-size);
+    color: var(--header-text-color);
 }
 
 nav {
@@ -23,16 +25,18 @@ nav {
 }
 
 nav button {
+    color: var(--header-text-color);
+
     background-color: rgba(0, 0, 0, 0);
     border: none;
 
     font-weight: bold;
-    font-size: 16px;
+    font-size: var(--header-nav-font-size);
     font-family: inherit;
 
     cursor: pointer;
 }
 
 nav button:hover {
-    color: rgb(55, 55, 55);
+    color: lightgray;
 }
