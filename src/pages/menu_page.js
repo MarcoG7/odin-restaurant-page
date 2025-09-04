@@ -43,11 +43,6 @@ function categoryItem(item_name, price) {
 
 const menu_page_content = document.createElement("div");
 
-// RESTAURANT NAME & TAGLINE
-const restaurant_name = document.createElement("h1");
-restaurant_name.textContent = "Ember & Ash";
-restaurant_name.classList.add("retaurant-name");
-
 const restaurant_tagline = document.createElement("h3");
 restaurant_tagline.textContent = "Wood-Fired Flavors, Modern Comfort";
 restaurant_tagline.classList.add("restaurant-tagline");
