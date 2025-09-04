@@ -15,7 +15,6 @@ const about_words = document.createElement("p");
 about_words.textContent = "🌿 Fresh • 🔥 Wood-Fired • 🍷 Crafted with Care";
 about_words.classList.add("about-words");
 
-about_page_content.appendChild(restaurant_name);
 about_page_content.appendChild(restaurant_tagline);
 about_page_content.appendChild(about_description);
 about_page_content.appendChild(about_words);

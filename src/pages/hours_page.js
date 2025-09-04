@@ -25,6 +25,5 @@ hours_list.appendChild(hours_item_MTWT);
 hours_list.appendChild(hours_item_FS);
 hours_list.appendChild(hours_item_S);
 
-hours_page_content.appendChild(restaurant_name);
 hours_page_content.appendChild(restaurant_tagline);
 hours_page_content.appendChild(hours_list);

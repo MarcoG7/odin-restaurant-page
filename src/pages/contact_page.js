@@ -39,7 +39,6 @@ contact_social_text.classList.add("contact-social-text");
 contact_social_container.appendChild(contact_social_title);
 contact_social_container.appendChild(contact_social_text);
 
-contact_page_content.appendChild(restaurant_name);
 contact_page_content.appendChild(restaurant_tagline);
 contact_page_content.appendChild(contact_info_container);
 contact_page_content.appendChild(contact_social_container);

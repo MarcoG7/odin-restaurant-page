@@ -124,6 +124,5 @@ const categories = [
 
 const categories_section = category(categories);
 
-menu_page_content.appendChild(restaurant_name);
 menu_page_content.appendChild(restaurant_tagline);
 menu_page_content.appendChild(categories_section);
