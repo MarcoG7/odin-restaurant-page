@@ -39,8 +39,12 @@
 }
 
 .cta-button {
-    width: clamp(100px, 30%, 150px);
-    height: 40px;
+    width: clamp(150px, 30%, 200px);
+    height: 60px;
+
+    color: white;
+    font-size: calc(var(--p-text-size) - 7px);
+    font-weight: bold;
 
     cursor: pointer;
 
@@ -48,8 +52,6 @@
     border: 2px solid #CFA45C;
     border-radius: 16px;
 
-    color: white;
-    font-weight: bold;
 }
 
 .cta-button:hover {
