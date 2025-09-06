@@ -1,0 +1,15 @@
+.contact-text {
+    font-size: var(--p-text-size);
+}
+
+.contact-container {
+    margin-top: 20px;
+}
+
+.contact-social-title {
+    font-size: calc(var(--p-text-size) + 7px);
+}
+
+.contact-social-text {
+    font-size: var(--p-text-size);
+}
