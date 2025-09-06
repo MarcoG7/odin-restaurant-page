@@ -8,6 +8,10 @@
     --header-nav-font-size: 1.25rem;
 
     --body-text-color: #4e4e4e;
+
+    --menu-category-font-size: 2rem;
+    --menu-category-background-color: #cfa45c;
+    --menu-item-font-size: 1.75rem;
 }
 
 body {

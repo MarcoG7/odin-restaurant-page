@@ -1,10 +1,13 @@
 export { menu_page_content };
 
 function category(categories) {
-    const category_container = document.createElement("div");
-    category_container.classList.add("menu-category");
+    const categories_container = document.createElement("div");
+    categories_container.classList.add("menu-categories");
 
     for (category of categories) {
+        const category_container = document.createElement("div");
+        category_container.classList.add("menu-category");
+
         const category_title = document.createElement("h2");
         category_title.textContent = category.title;
         category_title.classList.add("category-title");
@@ -19,26 +22,29 @@ function category(categories) {
 
         category_container.appendChild(category_title);
         category_container.appendChild(category_list);
+
+        categories_container.appendChild(category_container);
     }
 
-    return category_container;
+    return categories_container;
 }
 
-function categoryItem(item_name, price) {
-    const category_item = document.createElement("div");
+function categoryItem(name, price) {
+    const item = document.createElement("div");
+    item.classList.add("item");
 
-    const category_name = document.createElement("p");
-    category_name.textContent = item_name;
-    category_name.classList.add("category-name");
+    const item_name = document.createElement("p");
+    item_name.textContent = name;
+    item_name.classList.add("item-name");
 
-    const category_price = document.createElement("p");
-    category_price.textContent = price;
-    category_price.classList.add("category-price");
+    const item_price = document.createElement("p");
+    item_price.textContent = price;
+    item_price.classList.add("item-price");
 
-    category_item.appendChild(category_name);
-    category_item.appendChild(category_price);
+    item.appendChild(item_name);
+    item.appendChild(item_price);
 
-    return category_item;
+    return item;
 }
 
 const menu_page_content = document.createElement("div");
