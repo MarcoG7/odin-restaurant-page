@@ -20,7 +20,7 @@ restaurant_slogan.classList.add("restaurant-slogan");
 const cta_form = document.createElement("form");
 cta_form.classList.add("cta-form");
 
-const view_menu_button = document.createElement("button");
+export const view_menu_button = document.createElement("button");
 view_menu_button.textContent = "View Menu";
 view_menu_button.classList.add("cta-button");
 

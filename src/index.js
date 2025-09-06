@@ -1,4 +1,4 @@
-import { home_page_content } from "./pages/home_page.js";
+import { home_page_content, view_menu_button } from "./pages/home_page.js";
 import { about_page_content } from "./pages/about_page.js";
 import { menu_page_content } from "./pages/menu_page.js";
 import { hours_page_content } from "./pages/hours_page.js";
@@ -43,4 +43,10 @@ hours_button.addEventListener("click", () => {
 contact_button.addEventListener("click", () => {
     container.innerHTML = "";
     container.appendChild(contact_page_content);
+});
+
+// View Menu button functionality
+view_menu_button.addEventListener("click", () => {
+    container.innerHTML = "";
+    container.appendChild(menu_page_content);
 });
