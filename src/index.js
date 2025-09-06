@@ -9,6 +9,7 @@ import "./styles/header.css";
 import "./styles/home_page.css";
 import "./styles/about_page.css";
 import "./styles/menu_page.css";
+import "./styles/hours_page.css";
 
 const home_button = document.getElementById("home-button");
 const about_button = document.getElementById("about-button");

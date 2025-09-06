@@ -1,0 +1,13 @@
+.hours-list {
+    list-style: none;
+}
+
+.hours-item {
+    text-align: center;
+    font-size: var(--p-text-size);
+    margin-bottom: 25px;
+}
+
+.hours-days {
+    font-weight: bold;
+}
